@@ -1,4 +1,4 @@
-# PostcodeValidation [![Build Status](https://travis-ci.org/madetech/postcode_validation.svg?branch=master)](https://travis-ci.org/madetech/postcode_validation)
+# PostcodeValidation 
 
 This gem provides basic postcode validation functionality which can be used in any application
 
@@ -16,16 +16,12 @@ It also comes with out of the box plugins for:
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'postcode_validation'
+gem 'postcode_validation', github: 'thisisdevelopment/postcode_validation', tag: 'v0.1.0'
 ```
 
 And then execute:
 
     $ bundle
-
-Or install it yourself as:
-
-    $ gem install postcode_validation
 
 ## Usage
 
@@ -70,20 +66,9 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/madetech/postcode_validation.
+Bug reports and pull requests are welcome on GitHub at https://github.com/thisisdevelopment/postcode_validation.
 
 ## License
 
 The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
 
-## Credits
-
-Developed and maintained by [Made](http://www.madetech.co.uk?ref=github&repo=postcode_validation).
-
-[![made](https://s3-eu-west-1.amazonaws.com/made-assets/googleapps/google-apps.png)](http://www.madetech.co.uk?ref=github&repo=postcode_validation)
-
-Key contributions:
-
-* [Craig J. Bass](https://github.com/craigjbass)
-* [Seb Ashton](https://github.com/sebashton)
-* [Chris Blackburn](https://github.com/chrisblackburn)
